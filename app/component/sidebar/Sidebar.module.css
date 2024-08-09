@@ -1,0 +1,49 @@
+
+.sidebar {
+  width: 0;
+  height: 100vh;
+  background-color: #f8f9fa;
+  padding: 0 20px;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+
+.visible {
+  width: 250px;
+}
+
+
+.menuItems {
+  margin-top: 60px;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.menuItem span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.toggleButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1100;
+  outline: none;
+  display: flex;
+  align-items: center;
+}

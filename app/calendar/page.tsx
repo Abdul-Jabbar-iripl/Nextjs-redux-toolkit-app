@@ -6,7 +6,7 @@ import EventReminderCalendar from '../component/calendarEvent/EventReminderCalen
 
 const page = () => {
   return (
-    <div style={{display:"flex",justifyContent:"center",alignItems:"center",marginTop:"100px"}}>
+    <div>
        <Provider store={store}>
       <EventReminderCalendar />
     </Provider>

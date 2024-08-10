@@ -127,7 +127,7 @@ const ToDoForm = ({ editMode, existingTodo, setEditMode }: ToDoFormProps) => {
               fullWidth
               sx={{ mt: 2 }}
             >
-              Go To Details
+              Go To-Do List
             </Button>
           </Link>
         </form>

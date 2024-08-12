@@ -33,7 +33,7 @@ export default function Home() {
               </Card>
             </Link>
           </Grid>
-          <Grid item xs={12} sm={4}>
+          {/* <Grid item xs={12} sm={4}>
             <Link href="/calendar" passHref>
               <Card>
                 <CardContent>
@@ -44,7 +44,7 @@ export default function Home() {
                 </CardContent>
               </Card>
             </Link>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
     </>
